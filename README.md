@@ -4,8 +4,12 @@ jshow-sp
 Jshow is a function that allows sending forms and showing results with out loading pages. It uses XHR to send request . just creat a form and enjoy the result :)
 How to use 
 ========
+to use JSHOW , starting with adding :
 
-to use JSHOW you should add a form to your page .
+	<script src="jquery-1.10.2.js"></script>
+	<script src="jshow-sp-0.1.js"></script>
+	
+then you should add a form to your page .
 
     <form name="form_test">
 	  <p>Email : <input type="text" name="email"></input></p>

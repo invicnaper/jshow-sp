@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jshow-sp | Test</title>
+    </head>
+
+<body>
+<h1>New form</h1>
+<form name="form_test">
+	<p>Email : <input type="text" name="email"></input></p>
+	<p>Last Name : <input type="text" name="last_name"></input></p>
+	<p>First Name: <input type="text" name="first_email"></input></p>
+	<input type="submit" name="submit" id="send" value="send" onclick="javascript:load_jshow('insert.php', 'form_test', 'result', 'send')"></input>
+</form>
+<div id="result">
+</div>
+<div id="error">
+</div>
+<script src="jquery-1.10.2.js"></script>
+<script src="jshow-sp-0.1.js"></script>
+</body>
+
+</html>

@@ -18,7 +18,7 @@ then you should add a form to your page .
 	  <input type="submit" name="submit" id="send" value="send" onclick="javascript:load_jshow('insert.php', 'form_test', 'result', 'send')"></input> 
     </form> 
     
-we will cal the function with : 
+we will call the function using : 
 
     onclick="javascript:load_jshow('insert.php', 'form_test', 'result', 'send')"
     
